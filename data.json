@@ -1,0 +1,901 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title_zh": "你的手机关机了",
+      "title_en": "Your cell phone was turned off",
+      "vocabulary": [
+        { "hanzi": "了", "pinyin": "le", "pos": "助", "english": "modal particle", "mongolian": "хэлбэрийн туслах үг" },
+        { "hanzi": "怎么", "pinyin": "zěnme", "pos": "代", "english": "why", "mongolian": "яаж, яагаад" },
+        { "hanzi": "接", "pinyin": "jiē", "pos": "动", "english": "to receive (a call)", "mongolian": "хүлээн авах" },
+        { "hanzi": "带", "pinyin": "dài", "pos": "动", "english": "to take, bring", "mongolian": "авах, авч явах" },
+        { "hanzi": "后天", "pinyin": "hòutiān", "pos": "名", "english": "the day after tomorrow", "mongolian": "нөгөөдөр" },
+        { "hanzi": "建议", "pinyin": "jiànyì", "pos": "动/名", "english": "to propose, suggestion", "mongolian": "санал болгох" },
+        { "hanzi": "历史", "pinyin": "lìshǐ", "pos": "名", "english": "history", "mongolian": "түүх" },
+        { "hanzi": "博物馆", "pinyin": "bówùguǎn", "pos": "名", "english": "museum", "mongolian": "музей" },
+        { "hanzi": "参观", "pinyin": "cānguān", "pos": "动", "english": "to visit", "mongolian": "үзэх, аялах" },
+        { "hanzi": "同意", "pinyin": "tóngyì", "pos": "动", "english": "to agree", "mongolian": "зөвшөөрөх" },
+        { "hanzi": "商量", "pinyin": "shāngliang", "pos": "动", "english": "to consult, discuss", "mongolian": "зөвлөлдөх" },
+        { "hanzi": "对面", "pinyin": "duìmiàn", "pos": "名", "english": "opposite", "mongolian": "эсрэг тал" },
+        { "hanzi": "饭馆", "pinyin": "fànguǎn", "pos": "名", "english": "restaurant", "mongolian": "ресторан" },
+        { "hanzi": "出去", "pinyin": "chūqù", "pos": "动", "english": "to go out", "mongolian": "гарах" },
+        { "hanzi": "回来", "pinyin": "huílái", "pos": "动", "english": "to come back", "mongolian": "буцаж ирэх" },
+        { "hanzi": "以后", "pinyin": "yǐhòu", "pos": "名", "english": "after, later", "mongolian": "дараа нь" },
+        { "hanzi": "转告", "pinyin": "zhuǎngào", "pos": "动", "english": "to pass on a message", "mongolian": "мэдэгдэх" },
+        { "hanzi": "回", "pinyin": "huí", "pos": "动", "english": "to call back", "mongolian": "буцааж залгах" },
+        { "hanzi": "关机", "pinyin": "guān jī", "pos": "动", "english": "to turn off a phone", "mongolian": "утас унтраах" },
+        { "hanzi": "发现", "pinyin": "fāxiàn", "pos": "动", "english": "to find, discover", "mongolian": "олж мэдэх" },
+        { "hanzi": "机场", "pinyin": "jīchǎng", "pos": "名", "english": "airport", "mongolian": "нисэх буудал" },
+        { "hanzi": "请假", "pinyin": "qǐng jià", "pos": "动", "english": "to ask for leave", "mongolian": "амралт гуйх" },
+        { "hanzi": "一直", "pinyin": "yīzhí", "pos": "副", "english": "all the time", "mongolian": "байнга" },
+        { "hanzi": "占线", "pinyin": "zhànxiàn", "pos": "动", "english": "line is busy", "mongolian": "утас завгүй" },
+        { "hanzi": "过", "pinyin": "guò", "pos": "动", "english": "to spend (time)", "mongolian": "өнгөрөөх" },
+        { "hanzi": "再", "pinyin": "zài", "pos": "副", "english": "once more, again", "mongolian": "дахин" }
+      ],
+      "texts": [
+        {
+          "title": "课文一：今天下午你去哪儿了",
+          "content": "大卫给山本打电话，山本接了没有？为什么？你知道打电话的时候应该怎么问、怎么回答吗？\n\n山本发现手机上有一个没有接的电话，他回电话……\n\n山本：喂，哪位？\n大卫：山本，我是大卫。下午你给我打电话了吗？\n山本：打了，你去哪儿了？怎么没接我的电话？\n大卫：我去踢球了，没带手机。找我有事吗？\n山本：后天是周末，安妮建议全班去历史博物馆参观，张老师同意了。我们想跟你商量一下怎么去。\n大卫：行，咱们在哪儿见面？\n山本：你吃饭了没有？\n大卫：没有。\n山本：我和安妮要去东门对面的饭馆吃饭，你也来吧。\n大卫：好吧，咱们在饭馆见。"
+        },
+        {
+          "title": "课文二：他还没回来呢",
+          "content": "安妮给山本打电话，山本的同屋山田接电话……\n\n安妮：喂，请问山本在吗？\n山田：他出去了，还没回来呢。\n安妮：我是他的朋友安妮。他回来以后，让他给我回个电话，好吗？\n山田：没问题，我一定转告他。\n\n山本给安妮回电话……\n\n山本：喂，安妮，我是山本。听说你给我打电话了。\n安妮：是啊，你的手机怎么关机了？\n山本：啊，对不起，手机没电了，我没发现。找我有事吗？\n安妮：明天我不能去历史博物馆参观了，我要去机场接一个朋友。\n山本：你跟张老师请假了没有？\n安妮：还没有呢，我给她家打电话，电话一直占线。我过一会儿再打。\n山本：你别打了，明天我帮你请假吧。\n安妮：太好了，谢谢你。"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "语气助词“了”： S + V(+O) + 了",
+          "explanation": "The modal particle '了' is used at the end of a sentence to indicate that something or some situation has taken place.",
+          "examples": [
+            { "zh": "昨天你去哪儿了？", "en": "Where did you go yesterday?" },
+            { "zh": "我去长城了。", "en": "I went to the Great Wall." },
+            { "zh": "麦克来了吗？", "en": "Has Mike come?" }
+          ]
+        },
+        {
+          "title": "还没(有)……呢",
+          "explanation": "This structure is often used to answer a question with '了', indicating that something has not begun or been finished when the speaker speaks, but it is about to begin or to be finished.",
+          "examples": [
+            { "zh": "他出去了，还没回来呢。", "en": "He went out and hasn't come back yet." },
+            { "zh": "我还没吃饭呢，过一会儿再吃。", "en": "I haven't eaten yet, I'll eat later." }
+          ]
+        }
+      ],
+      "selfCheck": [
+        {
+          "id": "q1",
+          "question": "1. 山本下午去做什么了？",
+          "options": ["A. 去博物馆了", "B. 去踢球了", "C. 去饭馆吃饭了", "D. 去机场接朋友了"],
+          "answer": "B"
+        },
+        {
+          "id": "q2",
+          "question": "2. 大卫找山本有什么事？",
+          "options": ["A. 去饭馆吃饭", "B. 去历史博物馆参观", "C. 商量怎么去博物馆", "D. 一起去踢球"],
+          "answer": "C"
+        },
+        {
+          "id": "q3",
+          "question": "3. 山本的手机为什么关机了？",
+          "options": ["A. 他故意关机的", "B. 手机没电了", "C. 手机坏了", "D. 他在踢球没带手机"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title_zh": "她买了不少工艺品",
+      "title_en": "She bought quite a few pieces of handicraft",
+      "vocabulary": [
+        { "hanzi": "商场", "pinyin": "shāngchǎng", "pos": "名", "english": "shopping mall", "mongolian": "худалдааны төв" },
+        { "hanzi": "打折", "pinyin": "dǎ zhé", "pos": "动", "english": "to give a discount", "mongolian": "хямдралтай" },
+        { "hanzi": "正好", "pinyin": "zhènghǎo", "pos": "副", "english": "happen to, chance to", "mongolian": "яг тохирох" },
+        { "hanzi": "不少", "pinyin": "bùshǎo", "pos": "形", "english": "quite a few", "mongolian": "багагүй" },
+        { "hanzi": "双", "pinyin": "shuāng", "pos": "量", "english": "pair", "mongolian": "хос" },
+        { "hanzi": "皮鞋", "pinyin": "píxié", "pos": "名", "english": "leather shoes", "mongolian": "арьсан гутал" },
+        { "hanzi": "衬衫", "pinyin": "chènshān", "pos": "名", "english": "shirt, blouse", "mongolian": "цамц" },
+        { "hanzi": "条", "pinyin": "tiáo", "pos": "量", "english": "measure word for long things", "mongolian": "ширхэг (урт зүйл)" },
+        { "hanzi": "牛仔裤", "pinyin": "niúzǎikù", "pos": "名", "english": "jeans", "mongolian": "жийнсэн өмд" },
+        { "hanzi": "陪", "pinyin": "péi", "pos": "动", "english": "to accompany", "mongolian": "дагуулах" },
+        { "hanzi": "工艺品", "pinyin": "gōngyìpǐn", "pos": "名", "english": "handicraft", "mongolian": "гар урлал" },
+        { "hanzi": "收银台", "pinyin": "shōuyíntái", "pos": "名", "english": "cash desk", "mongolian": "касс" },
+        { "hanzi": "交", "pinyin": "jiāo", "pos": "动", "english": "to hand in", "mongolian": "тушаах" },
+        { "hanzi": "毛衣", "pinyin": "máoyī", "pos": "名", "english": "sweater", "mongolian": "цамц" },
+        { "hanzi": "售货员", "pinyin": "shòuhuòyuán", "pos": "名", "english": "shop assistant", "mongolian": "худалдагч" },
+        { "hanzi": "式样", "pinyin": "shìyàng", "pos": "名", "english": "style, design", "mongolian": " загвар" },
+        { "hanzi": "适合", "pinyin": "shìhé", "pos": "动", "english": "to suit, fit", "mongolian": "тохирох" },
+        { "hanzi": "出差", "pinyin": "chū chāi", "pos": "动", "english": "to be on a business trip", "mongolian": "томилолтоор явах" },
+        { "hanzi": "退", "pinyin": "tuì", "pos": "动", "english": "to return, refund", "mongolian": "буцаах" },
+        { "hanzi": "小票", "pinyin": "xiǎopiào", "pos": "名", "english": "sale slip", "mongolian": "борлуулалтын баримт" },
+        { "hanzi": "钱包", "pinyin": "qiánbǎo", "pos": "名", "english": "wallet", "mongolian": "түрийвч" },
+        { "hanzi": "跟", "pinyin": "gēn", "pos": "动", "english": "to follow", "mongolian": "дагах" },
+        { "hanzi": "麻烦", "pinyin": "máfan", "pos": "动", "english": "to trouble", "mongolian": "төвөг удаах" }
+      ],
+      "texts": [
+        {
+          "title": "课文一：她买了不少工艺品",
+          "content": "林月在商场里看到安妮……\n\n林月：安妮！\n安妮：林月，好久不见了！你也来逛商场？\n林月：听说这个商场的很多东西都在打折。今天是周末，正好来逛逛。\n安妮：你买了不少东西啊！\n林月：是啊，我买了一双皮鞋、一件衬衫和一条牛仔裤。都是五折，挺便宜的。你呢？买什么了？\n安妮：我没买东西，陪朋友来逛逛。她买了不少工艺品。\n林月：你朋友在哪儿呢？\n安妮：她在收银台交钱呢。"
+        },
+        {
+          "title": "课文二：我试了试这件毛衣",
+          "content": "安妮在商场里跟售货员说话……\n\n安妮：小姐，昨天我在这里买了这件毛衣。\n售货员：怎么了？有问题吗？\n安妮：我回家试了试，觉得有点儿肥，能不能换一件中号的？\n售货员：可以，请等一会儿……对不起，我找了找，没有中号的。别的颜色和式样你喜欢吗？\n安妮：我看了看，别的颜色和式样都不适合我。\n售货员：那您过几天再来换，行吗？\n安妮：我明天要出差，不知道什么时候能回来，我想退了这件毛衣，可以吗？\n售货员：没问题。您带小票了吗？\n安妮：带了，在我的钱包里。\n售货员：好吧，跟我来，我陪您去收银台退钱。\n安妮：谢谢，麻烦你了。"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "动态助词“了”： S + V + 了 + O",
+          "explanation": "The aspect particle '了' is used after a verb to indicate that the action has been completed.",
+          "examples": [
+            { "zh": "我买了一本英汉词典。", "en": "I bought an English-Chinese dictionary." },
+            { "zh": "她买了不少工艺品。", "en": "She bought quite a few pieces of handicraft." }
+          ]
+        },
+        {
+          "title": "V了V",
+          "explanation": "In oral Chinese, the structure 'V了V' is used with the '了' between reduplicated verbs to indicate that an action has taken place and lasted for a short time. The tone is relatively relaxed and casual.",
+          "examples": [
+            { "zh": "我回去试了试，觉得有点儿肥。", "en": "I went back and tried it on, and felt it was a bit loose." },
+            { "zh": "昨天我去商场逛了逛，买了不少东西。", "en": "Yesterday I went to the mall and walked around, buying quite a few things." }
+          ]
+        }
+      ],
+      "selfCheck": [
+        {
+          "id": "q1",
+          "question": "1. 林月今天买了什么？",
+          "options": ["A. 一双皮鞋、一件衬衫和一条牛仔裤", "B. 一件毛衣", "C. 很多工艺品", "D. 钱包"],
+          "answer": "A"
+        },
+        {
+          "id": "q2",
+          "question": "2. 安妮为什么没有买东西？",
+          "options": ["A. 商场不打折", "B. 她陪朋友来逛，朋友买了", "C. 她没钱", "D. 她不喜欢商场的东西"],
+          "answer": "B"
+        },
+        {
+          "id": "q3",
+          "question": "3. 安妮最后为什么把毛衣退了？",
+          "options": ["A. 毛衣太贵了", "B. 毛衣颜色不好看", "C. 没有中号的，而且她要出差", "D. 她不喜欢毛衣的式样"],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title_zh": "我想租一套房子",
+      "title_en": "I want to rent an apartment",
+      "vocabulary": [
+        { "hanzi": "就", "pinyin": "jiù", "pos": "副", "english": "at once, right away", "mongolian": "тэр даруй" },
+        { "hanzi": "走", "pinyin": "zǒu", "pos": "动", "english": "to leave", "mongolian": "явах" },
+        { "hanzi": "中介", "pinyin": "zhōngjiè", "pos": "名", "english": "agent", "mongolian": "зуучлагч" },
+        { "hanzi": "租", "pinyin": "zū", "pos": "动", "english": "to rent", "mongolian": "хөлслөх" },
+        { "hanzi": "到期", "pinyin": "dàoqī", "pos": "动", "english": "to expire", "mongolian": "хугацаа дуусах" },
+        { "hanzi": "套", "pinyin": "tào", "pos": "量", "english": "measure word for sets", "mongolian": "багц" },
+        { "hanzi": "满意", "pinyin": "mǎnyì", "pos": "形", "english": "satisfied", "mongolian": "сэтгэл ханамжтай" },
+        { "hanzi": "小区", "pinyin": "xiǎoqū", "pos": "名", "english": "residential area", "mongolian": "орон сууцны хороолол" },
+        { "hanzi": "电梯", "pinyin": "diàntī", "pos": "名", "english": "elevator", "mongolian": "цахилгаан шат" },
+        { "hanzi": "看见", "pinyin": "kànjiàn", "pos": "动", "english": "to see", "mongolian": "харах" },
+        { "hanzi": "出租", "pinyin": "chūzū", "pos": "动", "english": "to rent out", "mongolian": "хөлслүүлэх" },
+        { "hanzi": "广告", "pinyin": "guǎnggào", "pos": "名", "english": "advertisement", "mongolian": "зар" },
+        { "hanzi": "抽空", "pinyin": "chōu kòng", "pos": "动", "english": "to manage to find time", "mongolian": "цаг гаргах" },
+        { "hanzi": "不见不散", "pinyin": "bú jiàn bú sàn", "pos": "成", "english": "not to leave until we meet", "mongolian": "уулзтал явахгүй" },
+        { "hanzi": "搬家", "pinyin": "bān jiā", "pos": "动", "english": "to move house", "mongolian": "нүүх" },
+        { "hanzi": "虽然", "pinyin": "suīrán", "pos": "连", "english": "although", "mongolian": "хэдийгээр" },
+        { "hanzi": "但是", "pinyin": "dànshì", "pos": "连", "english": "but, however", "mongolian": "гэхдээ" },
+        { "hanzi": "房租", "pinyin": "fángzū", "pos": "名", "english": "rent", "mongolian": "түрээс" },
+        { "hanzi": "公寓", "pinyin": "gōngyù", "pos": "名", "english": "apartment", "mongolian": "байр" },
+        { "hanzi": "卧室", "pinyin": "wòshì", "pos": "名", "english": "bedroom", "mongolian": "унтлагын өрөө" },
+        { "hanzi": "客厅", "pinyin": "kètīng", "pos": "名", "english": "living room", "mongolian": "зочны өрөө" },
+        { "hanzi": "周围", "pinyin": "zhōuwéi", "pos": "名", "english": "surrounding", "mongolian": "эргэн тойронд" },
+        { "hanzi": "环境", "pinyin": "huánjìng", "pos": "名", "english": "environment", "mongolian": "орчин" },
+        { "hanzi": "干净", "pinyin": "gānjìng", "pos": "形", "english": "clean", "mongolian": "цэвэрхэн" },
+        { "hanzi": "安静", "pinyin": "ānjìng", "pos": "形", "english": "quiet", "mongolian": "тайван" }
+      ],
+      "texts": [
+        {
+          "title": "课文一：我下了课就去看房子了",
+          "content": "山本在教室外边遇到了马丁……\n\n山本：马丁，昨天下了课你就走了，去哪儿了？\n马丁：我下了课就去中介公司看房子了。\n山本：你要租房子吗？\n马丁：是啊！学校的宿舍下个月到期，我想在学校外边租一套房子。\n山本：有合适的吗？\n马丁：没有。我看了几套房子，都不太满意。\n山本：去我住的小区看看吧，我常在电梯门口看见出租房子的广告。\n马丁：是吗？能抽空儿陪我去看看吗？\n山本：我今天在学校吃了午饭就回家，你跟我一起去吧。\n马丁：行！下了课我就去你教室找你，咱们不见不散！\n山本：不见不散！"
+        },
+        {
+          "title": "课文二：我搬家了",
+          "content": "马丁在学校遇见安妮……\n\n马丁：安妮，我搬家了，在学校外边租了一套房子。\n安妮：是吗？为什么到学校外边住？我觉得住学校宿舍挺方便的。\n马丁：住学校宿舍虽然方便，但是房间太小了，房租也不便宜。\n安妮：你现在租的房子怎么样？\n马丁：是一套小公寓，有一个卧室和一个客厅，还有厨房和卫生间，虽然不太大，但是很舒服。\n安妮：每个月房租多少钱？\n马丁：1800块。\n安妮：挺便宜的。离学校远不远？\n马丁：有点儿远，但是可以坐地铁，交通很方便。\n安妮：周围环境怎么样？\n马丁：不错。小区很干净，也很安静。\n安妮：过几天去你的新家参观参观。\n马丁：好啊！欢迎！"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "V1了……就V2……",
+          "explanation": "This structure indicates that two actions take place in sequence and that the second one follows the first immediately.",
+          "examples": [
+            { "zh": "我今天吃了午饭就回家。", "en": "I will go home right after I eat lunch today." },
+            { "zh": "昨天马丁下了课就去看房子了。", "en": "Yesterday Martin went to look at the apartment right after class." }
+          ]
+        },
+        {
+          "title": "动词或动词短语作定语: V/VP + 的 + N/NP",
+          "explanation": "A verb or a verb phrase can act as an attributive in a sentence and the structural particle '的' must be used between the attributive and the central word.",
+          "examples": [
+            { "zh": "去我住的小区看看吧。", "en": "Let's go to the residential area where I live and take a look." },
+            { "zh": "我买的书", "en": "The book I bought" }
+          ]
+        },
+        {
+          "title": "虽然……但是……",
+          "explanation": "This structure is used to connect two clauses, indicating their transitional relation.",
+          "examples": [
+            { "zh": "住学校宿舍虽然方便，但是房间太小了。", "en": "Although living in the school dormitory is convenient, the room is too small." },
+            { "zh": "我的新家虽然不大，但是很舒服。", "en": "Although my new home is not big, it is very comfortable." }
+          ]
+        }
+      ],
+      "selfCheck": [
+        {
+          "id": "q1",
+          "question": "1. 马丁为什么要租房子？",
+          "options": ["A. 学校宿舍下个月到期", "B. 他想和朋友一起住", "C. 学校宿舍太吵了", "D. 他想买房子"],
+          "answer": "A"
+        },
+        {
+          "id": "q2",
+          "question": "2. 马丁去山本住的小区看房子的原因是什么？",
+          "options": ["A. 那里的房子便宜", "B. 山本在那里看见出租广告", "C. 那里离学校近", "D. 山本帮他找好了"],
+          "answer": "B"
+        },
+        {
+          "id": "q3",
+          "question": "3. 马丁的新家有什么特点？",
+          "options": ["A. 很大但是很贵", "B. 离学校很近", "C. 虽然不太大，但是很舒服，交通方便", "D. 环境不好，很吵"],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title_zh": "咱们去饭馆吃饭吧",
+      "title_en": "Let's go out to eat in a restaurant",
+      "vocabulary": [
+        { "hanzi": "又", "pinyin": "yòu", "pos": "副", "english": "again", "mongolian": "дахин" },
+        { "hanzi": "累", "pinyin": "lèi", "pos": "形", "english": "tired", "mongolian": "ядарсан" },
+        { "hanzi": "无聊", "pinyin": "wúliáo", "pos": "形", "english": "bored", "mongolian": "уйтгартай" },
+        { "hanzi": "顿", "pinyin": "dùn", "pos": "量", "english": "measure word for meals", "mongolian": "хоол" },
+        { "hanzi": "新", "pinyin": "xīn", "pos": "副", "english": "newly", "mongolian": "шинэ" },
+        { "hanzi": "开", "pinyin": "kāi", "pos": "动", "english": "to set up, run", "mongolian": "нээх" },
+        { "hanzi": "家", "pinyin": "jiā", "pos": "量", "english": "measure word for enterprises", "mongolian": "айл, газар" },
+        { "hanzi": "那里", "pinyin": "nàli", "pos": "代", "english": "that place", "mongolian": "тэнд" },
+        { "hanzi": "味道", "pinyin": "wèidao", "pos": "名", "english": "taste, flavor", "mongolian": "амт" },
+        { "hanzi": "次", "pinyin": "cì", "pos": "量", "english": "time", "mongolian": "удаа" },
+        { "hanzi": "不过", "pinyin": "búguò", "pos": "连", "english": "but, however", "mongolian": "гэхдээ" },
+        { "hanzi": "AA制", "pinyin": "AA zhì", "pos": "名", "english": "go Dutch", "mongolian": "тэнцүү төлөх" },
+        { "hanzi": "服务员", "pinyin": "fúwùyuán", "pos": "名", "english": "waiter", "mongolian": "үйлчлэгч" },
+        { "hanzi": "菜单", "pinyin": "càidān", "pos": "名", "english": "menu", "mongolian": "цэс" },
+        { "hanzi": "点", "pinyin": "diǎn", "pos": "动", "english": "to order", "mongolian": "захиалах" },
+        { "hanzi": "还是", "pinyin": "háishì", "pos": "副", "english": "had better", "mongolian": "илүү дээр" },
+        { "hanzi": "特色", "pinyin": "tèsè", "pos": "名", "english": "characteristic", "mongolian": "онцлог" },
+        { "hanzi": "蔬菜", "pinyin": "shūcài", "pos": "名", "english": "vegetable", "mongolian": "хүнсний ногоо" },
+        { "hanzi": "随便", "pinyin": "suíbiàn", "pos": "动", "english": "at one's convenience", "mongolian": "дураараа" },
+        { "hanzi": "加", "pinyin": "jiā", "pos": "动", "english": "to add", "mongolian": "нэмэх" },
+        { "hanzi": "汤", "pinyin": "tāng", "pos": "名", "english": "soup", "mongolian": "шөл" },
+        { "hanzi": "鸡蛋", "pinyin": "jīdàn", "pos": "名", "english": "egg", "mongolian": "өндөг" },
+        { "hanzi": "碗", "pinyin": "wǎn", "pos": "名", "english": "bowl", "mongolian": "аяга" },
+        { "hanzi": "果汁", "pinyin": "guǒzhī", "pos": "名", "english": "fruit juice", "mongolian": "жимсний шүүс" },
+        { "hanzi": "剩", "pinyin": "shèng", "pos": "动", "english": "to be left over", "mongolian": "үлдэх" },
+        { "hanzi": "打包", "pinyin": "dǎ bāo", "pos": "动", "english": "to doggie bag", "mongolian": "савлах" },
+        { "hanzi": "买单", "pinyin": "mǎi dān", "pos": "动", "english": "to pay the bill", "mongolian": "тооцоо хийх" }
+      ],
+      "texts": [
+        {
+          "title": "课文一：我不想再吃食堂的菜了",
+          "content": "大卫和马丁商量晚上做什么……\n\n大卫：又到周末了！马丁，晚上你打算怎么过？\n马丁：这个星期太累了，我想在宿舍看看电视，休息一下。\n大卫：在宿舍看电视太无聊了，吃了饭，陪我去看电影吧。\n马丁：好吧。咱们去哪儿吃晚饭？去食堂吗？\n大卫：今天是周末，我不想再吃食堂的菜了，咱们去饭馆吃一顿，怎么样？\n马丁：行啊！你想去哪儿吃？\n大卫：南门旁边新开了一家饭馆，咱们去那儿吧。\n马丁：那里的菜怎么样？\n大卫：味道不错。上星期山本请我去吃了一次，前天我自己又去了一次。走吧，今天再去吃一次，我请客。\n马丁：好啊，不过不用你请客，咱们“AA制”。"
+        },
+        {
+          "title": "课文二：还是你点菜吧",
+          "content": "大卫和马丁在饭馆点菜……\n\n服务员：欢迎光临！请这边坐。请问你们吃点儿什么？\n大卫：我们先看看菜单。马丁，你先点吧。\n马丁：还是你点吧，我不知道这里有什么特色菜。\n大卫：好吧。小姐，一个鱼香肉丝，一个辣子鸡丁。马丁，想吃什么蔬菜？\n马丁：随便。\n大卫：西蓝花怎么样？\n马丁：行，再加个西红柿鸡蛋汤吧。\n大卫：小姐，鱼香肉丝，辣子鸡丁，西蓝花，西红柿鸡蛋汤，两碗米饭。\n服务员：你们喝点儿什么？\n大卫：啤酒怎么样？\n马丁：还是喝果汁吧。\n马丁：剩了不少菜，咱们打包吧。\n大卫：好。小姐，买单！\n服务员：欢迎再来！"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "“又”和“再”",
+          "explanation": "'又' is mostly used to indicate the recurrence of an action which has already taken place, or an expectable repetition. '再' indicates the repetition or continuation of an action which is yet to take place.",
+          "examples": [
+            { "zh": "你昨天迟到了，怎么今天又迟到了？", "en": "You were late yesterday, why are you late again today?" },
+            { "zh": "这咖啡真好喝，再给我一杯。", "en": "This coffee is so good, give me another cup." }
+          ]
+        },
+        {
+          "title": "动量词：“次”和“下”",
+          "explanation": "'次' is generally used to modify actions that can take place repeatedly. '下' is generally used for transitory actions. '一下' often softens the tone rather than indicating the number of times.",
+          "examples": [
+            { "zh": "上星期我们又去那个博物馆参观了一次。", "en": "We visited that museum one more time last week." },
+            { "zh": "我可以试一下这件衣服吗？", "en": "Can I try on this piece of clothing?" }
+          ]
+        },
+        {
+          "title": "副词“还是”",
+          "explanation": "Besides being used as a conjunction, '还是' can also be used as an adverb to indicate that the subject has made a choice after comparing the known things.",
+          "examples": [
+            { "zh": "公共汽车太挤了，出租车太贵了，还是坐地铁去吧。", "en": "The bus is too crowded, the taxi is too expensive, it's better to take the subway." },
+            { "zh": "还是你点吧，我不知道这里有什么特色菜。", "en": "You order, I don't know what specialties they have here." }
+          ]
+        }
+      ],
+      "selfCheck": [
+        {
+          "id": "q1",
+          "question": "1. 大卫为什么不想在食堂吃饭？",
+          "options": ["A. 食堂的菜不好吃", "B. 今天是周末，他想去饭馆吃", "C. 食堂人太多了", "D. 他想自己做饭"],
+          "answer": "B"
+        },
+        {
+          "id": "q2",
+          "question": "2. 马丁为什么不点菜？",
+          "options": ["A. 他不饿", "B. 他不知道有什么特色菜", "C. 他想让大卫点", "D. 他不喜欢这家饭馆"],
+          "answer": "B"
+        },
+        {
+          "id": "q3",
+          "question": "3. 他们最后怎么处理剩下的菜？",
+          "options": ["A. 留在桌子上", "B. 打包带走", "C. 让服务员拿走", "D. 送给别人"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title_zh": "今天我看了—晚上电视",
+      "title_en": "I've been watching TV the whole evening",
+      "vocabulary": [
+        { "hanzi": "已经", "pinyin": "yǐjīng", "pos": "副", "english": "already", "mongolian": "аль хэдийн" },
+        { "hanzi": "可是", "pinyin": "kěshì", "pos": "连", "english": "but, yet", "mongolian": "гэхдээ" },
+        { "hanzi": "进步", "pinyin": "jìnbù", "pos": "动", "english": "to progress", "mongolian": "дэвшил" },
+        { "hanzi": "应该", "pinyin": "yīnggāi", "pos": "助动", "english": "should", "mongolian": "ёстой" },
+        { "hanzi": "怎么办", "pinyin": "zěnme bàn", "pos": "短语", "english": "what to do", "mongolian": "яах вэ" },
+        { "hanzi": "改变", "pinyin": "gǎibiàn", "pos": "动", "english": "to change", "mongolian": "өөрчлөх" },
+        { "hanzi": "习惯", "pinyin": "xíguàn", "pos": "名/动", "english": "habit; to be used to", "mongolian": "дадал" },
+        { "hanzi": "小时", "pinyin": "xiǎoshí", "pos": "名", "english": "hour", "mongolian": "цаг" },
+        { "hanzi": "离开", "pinyin": "líkāi", "pos": "动", "english": "to leave", "mongolian": "явах" },
+        { "hanzi": "阅览室", "pinyin": "yuèlǎnshì", "pos": "名", "english": "reading room", "mongolian": "уншлагын танхим" },
+        { "hanzi": "极了", "pinyin": "jíle", "pos": "副", "english": "extremely", "mongolian": "маш их" },
+        { "hanzi": "认真", "pinyin": "rènzhēn", "pos": "形", "english": "serious, earnest", "mongolian": "хичээнгүй" },
+        { "hanzi": "杂志", "pinyin": "zázhì", "pos": "名", "english": "magazine", "mongolian": "сэтгүүл" },
+        { "hanzi": "分钟", "pinyin": "fēnzhōng", "pos": "名", "english": "minute", "mongolian": "минут" },
+        { "hanzi": "条件", "pinyin": "tiáojiàn", "pos": "名", "english": "condition", "mongolian": "нөхцөл" }
+      ],
+      "texts": [
+        {
+          "title": "课文一：今天我看了一晚上电视",
+          "content": "美爱：安妮，我来中国已经两个半月了，可是进步太慢了，你说我应该怎么办啊？\n安妮：你每天晚上学习多长时间？\n美爱：我晚上在宿舍，只想看电视，或者上网，不想看书。今天我又看了一晚上电视。\n安妮：我建议你改变一下学习习惯，跟我去图书馆学习吧。\n美爱：你每天晚上在图书馆学习多长时间？\n安妮：大概三个小时。一般七点到，十点离开。\n美爱：图书馆的学习环境怎么样？\n安妮：不错。阅览室里安静极了，大家学习都很认真。二楼的阅览室里有很多杂志，中间休息的时候，我常去那儿看二十分钟杂志。\n美爱：图书馆的条件这么好，明天我也跟你去试试。"
+        },
+        {
+          "title": "课文二：我等了你半天了",
+          "content": "大卫：安妮！我来了！真不好意思，迟到了。\n安妮：你看看表，现在都几点了！我等了你半天了！\n大卫：我去银行存钱，人挺多的，排队排了40分钟。骑车回来的时候，车坏了，又修了半个小时车。\n安妮：你怎么不给我打个电话啊？我给你打了几次，你的手机一直关机。我多着急啊！\n大卫：别提了，我想给你打电话，可是手机没电了。\n安妮：你怎么这么倒霉啊！\n大卫：别生气了，晚上我请你吃饭。你看天气多好啊！咱们别坐车了，走路去吧。"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "时段的表达",
+          "explanation": "Time can be divided into a point of time and a period of time. Only the words indicating a period of time can be put after the verb to act as a complement of duration.",
+          "examples": [
+            { "zh": "她学习了多长时间？", "en": "How long did she study?" },
+            { "zh": "她学习了两个小时。", "en": "She studied for two hours." }
+          ]
+        },
+        {
+          "title": "动作持续时间的表达",
+          "explanation": "The complement of duration can be put directly after the verb if there is no object. If there is an object, there are two forms: V + O + V + duration, or V + duration + (的) + O.",
+          "examples": [
+            { "zh": "大卫学习了一个小时。", "en": "David studied for an hour." },
+            { "zh": "马丁看电视看了一个小时。", "en": "Martin watched TV for an hour." },
+            { "zh": "马丁看了一个小时（的）电视。", "en": "Martin watched TV for an hour." }
+          ]
+        },
+        {
+          "title": "多(么)……啊",
+          "explanation": "This structure is mostly used in an exclamatory sentence, indicating a high degree and containing an exaggerated tone and a strong feeling.",
+          "examples": [
+            { "zh": "你不给我打电话，我多(么)着急啊！", "en": "You didn't call me, how worried I was!" },
+            { "zh": "今天的天气多好啊！", "en": "The weather today is so nice!" }
+          ]
+        }
+      ],
+      "selfCheck": [
+        {
+          "id": "q1",
+          "question": "1. 美爱为什么觉得自己的汉语进步很慢？",
+          "options": ["A. 她每天在宿舍看电视或上网", "B. 她没有语伴", "C. 她不喜欢看书", "D. 她上课不认真"],
+          "answer": "A"
+        },
+        {
+          "id": "q2",
+          "question": "2. 大卫为什么迟到了？",
+          "options": ["A. 他忘记了时间", "B. 他去银行存钱排队，自行车又坏了", "C. 他不想来", "D. 他手机没电了"],
+          "answer": "B"
+        },
+        {
+          "id": "q3",
+          "question": "3. 安妮等了大卫多长时间？",
+          "options": ["A. 40分钟", "B. 半个小时", "C. 半天", "D. 一个小时"],
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title_zh": "能不能帮忙找个语伴",
+      "title_en": "Could you help me find a language partner",
+      "vocabulary": [
+        { "hanzi": "件", "pinyin": "jiàn", "pos": "量", "english": "measure word for matters", "mongolian": "ширхэг" },
+        { "hanzi": "帮忙", "pinyin": "bāngmáng", "pos": "动", "english": "to help", "mongolian": "туслах" },
+        { "hanzi": "语伴", "pinyin": "yǔbàn", "pos": "名", "english": "language partner", "mongolian": "хэлний хамтрагч" },
+        { "hanzi": "练", "pinyin": "liàn", "pos": "动", "english": "to practice", "mongolian": "дасгал хийх" },
+        { "hanzi": "多", "pinyin": "duō", "pos": "副", "english": "how", "mongolian": "ямар" },
+        { "hanzi": "办法", "pinyin": "bànfǎ", "pos": "名", "english": "way, method", "mongolian": "арга" },
+        { "hanzi": "提高", "pinyin": "tígāo", "pos": "动", "english": "to improve", "mongolian": "сайжруулах" },
+        { "hanzi": "水平", "pinyin": "shuǐpíng", "pos": "名", "english": "level", "mongolian": "түвшин" },
+        { "hanzi": "平时", "pinyin": "píngshí", "pos": "名", "english": "ordinarily", "mongolian": "ердийн үед" },
+        { "hanzi": "机会", "pinyin": "jīhuì", "pos": "名", "english": "opportunity", "mongolian": "боломж" },
+        { "hanzi": "样", "pinyin": "yàng", "pos": "名", "english": "kind", "mongolian": "төрөл" },
+        { "hanzi": "系", "pinyin": "xì", "pos": "名", "english": "department", "mongolian": "тэнхим" },
+        { "hanzi": "这样", "pinyin": "zhèyàng", "pos": "代", "english": "this way", "mongolian": "ийм байдлаар" },
+        { "hanzi": "最好", "pinyin": "zuìhǎo", "pos": "副", "english": "had better", "mongolian": "хамгийн дээр" },
+        { "hanzi": "性格", "pinyin": "xìnggé", "pos": "名", "english": "character", "mongolian": "зан чанар" },
+        { "hanzi": "活泼", "pinyin": "huópō", "pos": "形", "english": "lively", "mongolian": "хөгжилтэй" },
+        { "hanzi": "哪里", "pinyin": "nǎli", "pos": "代", "english": "where (polite)", "mongolian": "хаана" },
+        { "hanzi": "差得远", "pinyin": "chà de yuǎn", "pos": "短语", "english": "far from", "mongolian": "хол байна" },
+        { "hanzi": "以前", "pinyin": "yǐqián", "pos": "名", "english": "before", "mongolian": "өмнө" },
+        { "hanzi": "音乐", "pinyin": "yīnyuè", "pos": "名", "english": "music", "mongolian": "хөгжим" },
+        { "hanzi": "锻炼", "pinyin": "duànliàn", "pos": "动", "english": "to exercise", "mongolian": "дасгал хийх" },
+        { "hanzi": "校园", "pinyin": "xiàoyuán", "pos": "名", "english": "campus", "mongolian": "кампус" },
+        { "hanzi": "散步", "pinyin": "sànbù", "pos": "动", "english": "to take a walk", "mongolian": "алхах" },
+        { "hanzi": "左右", "pinyin": "zuǒyòu", "pos": "名", "english": "about", "mongolian": "орчим" },
+        { "hanzi": "开始", "pinyin": "kāishǐ", "pos": "动", "english": "to start", "mongolian": "эхлэх" },
+        { "hanzi": "早睡早起", "pinyin": "zǎo shuì zǎo qǐ", "pos": "短语", "english": "early to bed early to rise", "mongolian": "эрт унтаж эрт босох" },
+        { "hanzi": "晚睡晚起", "pinyin": "wǎn shuì wǎn qǐ", "pos": "短语", "english": "late to bed late to rise", "mongolian": "орой унтаж орой босох" },
+        { "hanzi": "生活", "pinyin": "shēnghuó", "pos": "名", "english": "life", "mongolian": "амьдрал" },
+        { "hanzi": "规律", "pinyin": "guīlǜ", "pos": "名/形", "english": "regular pattern", "mongolian": "дэг журам" },
+        { "hanzi": "开玩笑", "pinyin": "kāi wánxiào", "pos": "动", "english": "to joke", "mongolian": "хошигнох" },
+        { "hanzi": "爷爷", "pinyin": "yéye", "pos": "名", "english": "grandpa", "mongolian": "өвөө" },
+        { "hanzi": "差不多", "pinyin": "chàbuduō", "pos": "形", "english": "similar", "mongolian": "бараг" }
+      ],
+      "texts": [
+        {
+          "title": "课文一：能不能帮忙找个语伴",
+          "content": "大卫：小明，有件事想请你帮忙。\n小明：什么事？\n大卫：我想找个语伴，我帮他练法语，他帮我练汉语。\n小明：你每星期上二十多节汉语课，还要找语伴，多累啊！\n大卫：没办法，我想快点儿提高我的汉语水平。\n小明：别着急，你来中国只有两个多月，进步已经很大了。\n大卫：不行。我的口语不好，平时说汉语的机会太少，找个语伴，可以多练练。\n小明：一个星期你想练几次？\n大卫：每星期练一两次，每次两三个小时吧。\n小明：你想找个什么样的语伴？\n大卫：找咱们学校法语系的学生吧，这样大家见面比较方便。\n小明：你要找男生还是女生？\n大卫：随便。最好性格活泼一点儿。\n小明：行，法语系我有几个好朋友，我帮你问问。"
+        },
+        {
+          "title": "课文二：我习惯早睡早起",
+          "content": "林月：大卫，你来中国只有两三个月，可是你的汉语说得挺不错的。\n大卫：哪里，还差得远呢。\n林月：你的汉语课多吗？\n大卫：我每天上午都有四节课，下午没有课。\n林月：下午你一般做什么？\n大卫：四点以前在宿舍看看书，听听音乐，四点以后去锻炼身体，跑跑步、打打球，或者游一两个小时泳。\n林月：晚上呢？\n大卫：晚饭以后，先在校园里散一会儿步，然后上网跟朋友聊一会儿天儿，八点左右开始学习。\n林月：晚上你一般几点睡觉？\n大卫：十点半。我习惯早睡早起。\n林月：你的生活真有规律啊！\n大卫：是啊！我同屋常跟我开玩笑，说我的生活习惯跟他爷爷差不多。"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "概数的表达",
+          "explanation": "Ways of expressing approximate numbers: 1. Number + 多 (indicating a number larger than it). 2. 几 (indicating an indefinite number smaller than ten). 3. Two adjacent numbers used in succession (e.g., 一两, 三四).",
+          "examples": [
+            { "zh": "每星期练三四次，每次一两个小时。", "en": "Practice three or four times a week, one or two hours each time." },
+            { "zh": "你来中国只有两个多月，进步已经很大了。", "en": "You've only been in China for over two months, and you've made great progress." },
+            { "zh": "法语系我有几个好朋友。", "en": "I have a few good friends in the French department." }
+          ]
+        },
+        {
+          "title": "离合词",
+          "explanation": "Separable words are bi-syllabic verbs of 'V+O'. Some elements can be inserted between the verb and the object (e.g., duration, measure words, pronouns). They generally cannot take an object directly.",
+          "examples": [
+            { "zh": "下午去操场跑跑步、打打球。", "en": "Go to the playground to run and play ball in the afternoon." },
+            { "zh": "晚上跟朋友聊一会儿天儿。", "en": "Chat with friends for a while in the evening." },
+            { "zh": "他帮了我的忙。", "en": "He helped me." }
+          ]
+        },
+        {
+          "title": "“以前”和“以后”",
+          "explanation": "They indicate time and can be used alone, after a noun (N+以前/以后), or after a verb/verbal phrase (V/VP+以前/以后).",
+          "examples": [
+            { "zh": "四点以前在宿舍看看书。", "en": "Read books in the dormitory before 4 o'clock." },
+            { "zh": "四点以后去锻炼身体。", "en": "Go to exercise after 4 o'clock." },
+            { "zh": "来中国以前，我不会说汉语。", "en": "Before coming to China, I couldn't speak Chinese." }
+          ]
+        }
+      ],
+      "selfCheck": [
+        {
+          "id": "q1",
+          "question": "1. 大卫为什么要找语伴？",
+          "options": ["A. 他想教法语", "B. 他想提高汉语水平", "C. 他觉得无聊", "D. 他需要一个中国朋友"],
+          "answer": "B"
+        },
+        {
+          "id": "q2",
+          "question": "2. 大卫想找个什么样的语伴？",
+          "options": ["A. 男生", "B. 女生", "C. 性格活泼的法语系学生", "D. 他的同屋"],
+          "answer": "C"
+        },
+        {
+          "id": "q3",
+          "question": "3. 大卫的生活习惯怎么样？",
+          "options": ["A. 晚睡晚起", "B. 早睡早起，很有规律", "C. 不锻炼身体", "D. 经常熬夜"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title_zh": "我七点五十才起床",
+      "title_en": "I didn't get up until seven fifty",
+      "vocabulary": [
+        { "hanzi": "小卖部", "pinyin": "xiǎomàibù", "pos": "名", "english": "small shop", "mongolian": "жижиг дэлгүүр" },
+        { "hanzi": "听见", "pinyin": "tīngjiàn", "pos": "动", "english": "to hear", "mongolian": "сонсох" },
+        { "hanzi": "闹钟", "pinyin": "nàozhōng", "pos": "名", "english": "alarm clock", "mongolian": "сэрүүлэгтэй цаг" },
+        { "hanzi": "响", "pinyin": "xiǎng", "pos": "动", "english": "to ring", "mongolian": "дуугарах" },
+        { "hanzi": "才", "pinyin": "cái", "pos": "副", "english": "indicating later than expected", "mongolian": "сая" },
+        { "hanzi": "醒", "pinyin": "xǐng", "pos": "动", "english": "to wake up", "mongolian": "сэрэх" },
+        { "hanzi": "刷", "pinyin": "shuā", "pos": "动", "english": "to brush", "mongolian": "угаах" },
+        { "hanzi": "牙", "pinyin": "yá", "pos": "名", "english": "tooth", "mongolian": "шүд" },
+        { "hanzi": "脸", "pinyin": "liǎn", "pos": "名", "english": "face", "mongolian": "нүүр" },
+        { "hanzi": "来得及", "pinyin": "láidejí", "pos": "动", "english": "be able to do in time", "mongolian": "цаг заваа гаргах" },
+        { "hanzi": "怪不得", "pinyin": "guàibude", "pos": "副", "english": "no wonder", "mongolian": "гайхах зүйлгүй" },
+        { "hanzi": "总(是)", "pinyin": "zǒng(shì)", "pos": "副", "english": "always", "mongolian": "үргэлж" },
+        { "hanzi": "酒吧", "pinyin": "jiǔbā", "pos": "名", "english": "bar", "mongolian": "бар" },
+        { "hanzi": "夜", "pinyin": "yè", "pos": "名", "english": "night", "mongolian": "шөнө" },
+        { "hanzi": "饿", "pinyin": "è", "pos": "形", "english": "hungry", "mongolian": "өлсөх" },
+        { "hanzi": "饱", "pinyin": "bǎo", "pos": "形", "english": "full", "mongolian": "цадах" },
+        { "hanzi": "好", "pinyin": "hǎo", "pos": "副", "english": "emphasizing large number", "mongolian": "маш" },
+        { "hanzi": "因为", "pinyin": "yīnwèi", "pos": "连", "english": "because", "mongolian": "яагаад гэвэл" },
+        { "hanzi": "所以", "pinyin": "suǒyǐ", "pos": "连", "english": "so", "mongolian": "тиймээс" },
+        { "hanzi": "热情", "pinyin": "rèqíng", "pos": "形", "english": "warm-hearted", "mongolian": "халуун сэтгэлтэй" },
+        { "hanzi": "聪明", "pinyin": "cōngming", "pos": "形", "english": "clever", "mongolian": "ухаантай" },
+        { "hanzi": "头疼", "pinyin": "tóuténg", "pos": "形", "english": "headache", "mongolian": "толгой өвдөх" },
+        { "hanzi": "灯", "pinyin": "dēng", "pos": "名", "english": "lamp", "mongolian": "гэрэл" },
+        { "hanzi": "只好", "pinyin": "zhǐhǎo", "pos": "副", "english": "have to", "mongolian": "аргагүй" },
+        { "hanzi": "吵", "pinyin": "chǎo", "pos": "形", "english": "noisy", "mongolian": "шуугиантай" },
+        { "hanzi": "需要", "pinyin": "xūyào", "pos": "动", "english": "to need", "mongolian": "хэрэгтэй" },
+        { "hanzi": "互相", "pinyin": "hùxiāng", "pos": "副", "english": "mutually", "mongolian": "харилцан" },
+        { "hanzi": "适应", "pinyin": "shìyìng", "pos": "动", "english": "to adapt", "mongolian": "дасах" },
+        { "hanzi": "希望", "pinyin": "xīwàng", "pos": "动", "english": "to hope", "mongolian": "найдах" },
+        { "hanzi": "段", "pinyin": "duàn", "pos": "量", "english": "period", "mongolian": "хугацаа" }
+      ],
+      "texts": [
+        {
+          "title": "课文一：我七点五十才起床",
+          "content": "大卫：下课了！我去楼下小卖部买点儿吃的。\n山本：你没吃早饭啊？\n大卫：我没听见闹钟响，七点五十才醒，刷了牙洗了脸就来上课了，没来得及吃早饭。\n山本：怪不得今天上课你迟到了，平时你总是不到八点就来了。\n大卫：是啊！我一般早睡早起，晚上十点半就睡觉，早上六点就起床。可是昨天晚上跟几个朋友一起去酒吧了，夜里一点多才回宿舍。\n山本：一会儿要上课了，你快点儿去买吃的吧，别再迟到了。\n大卫：要不要我给你也带点儿？\n山本：谢谢，我不饿，我早饭吃得挺饱的。"
+        },
+        {
+          "title": "课文二：你的新同屋怎么样",
+          "content": "麦克：大卫，好几天没看见你了，听说你有新同屋了？\n大卫：是啊。因为马丁在外边租房子住了，所以我找了个新同屋。\n麦克：新同屋怎么样？\n大卫：人很热情，也很聪明，可是我们的生活习惯不太一样，让我很头疼。\n麦克：怎么了？\n大卫：我习惯早睡早起，可是他每天很晚才睡觉。他不关灯，我也没办法睡觉。\n麦克：找个机会跟他说说。\n大卫：好多次我都想说，可是总是不好意思说。现在我只好晚睡早起了。\n麦克：为什么要早起啊？\n大卫：我的宿舍楼在马路旁边，早上很吵，所以我每天很早就醒了。\n麦克：生活习惯不一样的人住一起是挺不方便的，需要互相适应。\n大卫：是啊。希望过一段时间我能适应。"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "“就”和“才”",
+          "explanation": "'就' indicates that the speaker thinks the action took place earlier, faster, or lasted for a shorter time than expected. '才' indicates that the action took place later, more slowly, or lasted for a longer time than expected.",
+          "examples": [
+            { "zh": "电影七点开始，他六点半就来了。", "en": "The movie starts at 7, he came at 6:30." },
+            { "zh": "电影七点开始，他七点十分才来。", "en": "The movie starts at 7, he came at 7:10." }
+          ]
+        },
+        {
+          "title": "因为……所以……",
+          "explanation": "This structure is used to form a causal compound sentence, in which '因为' introduces the reason and '所以' introduces the result.",
+          "examples": [
+            { "zh": "因为我感冒了，所以今天没去上课。", "en": "Because I caught a cold, I didn't go to class today." },
+            { "zh": "因为今天天气不好，所以我们没去公园玩儿。", "en": "Because the weather was bad today, we didn't go to the park." }
+          ]
+        },
+        {
+          "title": "好几/多 + 数量词",
+          "explanation": "This structure is often used to emphasize a large number, expressing the feeling of the speaker himself.",
+          "examples": [
+            { "zh": "玛丽有好几年没回国了。", "en": "Mary hasn't returned to her country for several years." },
+            { "zh": "大卫给你打了好多次电话了。", "en": "David has called you many times." }
+          ]
+        }
+      ],
+      "selfCheck": [
+        {
+          "id": "q1",
+          "question": "1. 大卫今天为什么没吃早饭？",
+          "options": ["A. 他不饿", "B. 他没听见闹钟，起晚了", "C. 小卖部没开门", "D. 他不想吃"],
+          "answer": "B"
+        },
+        {
+          "id": "q2",
+          "question": "2. 大卫的新同屋有什么特点？",
+          "options": ["A. 很热情，也很聪明", "B. 很安静", "C. 习惯早睡早起", "D. 不喜欢关灯"],
+          "answer": "A"
+        },
+        {
+          "id": "q3",
+          "question": "3. 大卫为什么每天早上很早就醒了？",
+          "options": ["A. 他要早起锻炼", "B. 他的宿舍楼在马路旁边，早上很吵", "C. 他要给同屋做早饭", "D. 他要上早课"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title_zh": "可能做错了不少题",
+      "title_en": "There are probably quite a few questions that were answered incorrectly",
+      "vocabulary": [
+        { "hanzi": "叫", "pinyin": "jiào", "pos": "动", "english": "to shout, call", "mongolian": "дуудах" },
+        { "hanzi": "刚", "pinyin": "gāng", "pos": "副", "english": "just", "mongolian": "сая" },
+        { "hanzi": "完", "pinyin": "wán", "pos": "动", "english": "to finish", "mongolian": "дуусгах" },
+        { "hanzi": "特别", "pinyin": "tèbié", "pos": "副", "english": "specially", "mongolian": "онцгой" },
+        { "hanzi": "录音", "pinyin": "lùyīn", "pos": "名/动", "english": "recording", "mongolian": "бичлэг" },
+        { "hanzi": "句子", "pinyin": "jùzi", "pos": "名", "english": "sentence", "mongolian": "өгүүлбэр" },
+        { "hanzi": "清楚", "pinyin": "qīngchu", "pos": "形", "english": "clear", "mongolian": "тодорхой" },
+        { "hanzi": "懂", "pinyin": "dǒng", "pos": "动", "english": "to understand", "mongolian": "ойлгох" },
+        { "hanzi": "分之", "pinyin": "fēnzhī", "pos": "短语", "english": "fraction", "mongolian": "хувь" },
+        { "hanzi": "阅读", "pinyin": "yuèdú", "pos": "动/名", "english": "reading", "mongolian": "унших" },
+        { "hanzi": "题", "pinyin": "tí", "pos": "名", "english": "question", "mongolian": "асуулт" },
+        { "hanzi": "可能", "pinyin": "kěnéng", "pos": "形", "english": "possible", "mongolian": "боломжтой" },
+        { "hanzi": "错", "pinyin": "cuò", "pos": "形", "english": "wrong", "mongolian": "буруу" },
+        { "hanzi": "成绩", "pinyin": "chéngjì", "pos": "名", "english": "score", "mongolian": "дүн" },
+        { "hanzi": "好好儿", "pinyin": "hǎohāor", "pos": "副", "english": "all out", "mongolian": "сайн" },
+        { "hanzi": "闷", "pinyin": "mèn", "pos": "形", "english": "stuffy", "mongolian": "бөглүү" },
+        { "hanzi": "空调", "pinyin": "kōngtiáo", "pos": "名", "english": "air conditioner", "mongolian": "агааржуулагч" },
+        { "hanzi": "拉", "pinyin": "lā", "pos": "动", "english": "to pull", "mongolian": "татах" },
+        { "hanzi": "窗帘", "pinyin": "chuānglián", "pos": "名", "english": "curtain", "mongolian": "хөшиг" },
+        { "hanzi": "窗户", "pinyin": "chuānghu", "pos": "名", "english": "window", "mongolian": "цонх" },
+        { "hanzi": "停", "pinyin": "tíng", "pos": "动", "english": "to stop", "mongolian": "зогсох" },
+        { "hanzi": "外面", "pinyin": "wàimiàn", "pos": "名", "english": "outside", "mongolian": "гадна" },
+        { "hanzi": "面", "pinyin": "miàn", "pos": "尾", "english": "suffix for locality", "mongolian": "тал" },
+        { "hanzi": "凉快", "pinyin": "liángkuai", "pos": "形", "english": "cool", "mongolian": "сэрүүн" },
+        { "hanzi": "困", "pinyin": "kùn", "pos": "形", "english": "sleepy", "mongolian": "нойрмог" },
+        { "hanzi": "准备", "pinyin": "zhǔnbèi", "pos": "动", "english": "to prepare", "mongolian": "бэлдэх" },
+        { "hanzi": "遇到", "pinyin": "yùdào", "pos": "动", "english": "to encounter", "mongolian": "тааралдах" },
+        { "hanzi": "卡拉OK", "pinyin": "kǎlā OK", "pos": "名", "english": "karaoke", "mongolian": "караоке" },
+        { "hanzi": "打扮", "pinyin": "dǎban", "pos": "动", "english": "to dress up", "mongolian": "гоёх" },
+        { "hanzi": "裙子", "pinyin": "qúnzi", "pos": "名", "english": "skirt", "mongolian": "юбка" },
+        { "hanzi": "它", "pinyin": "tā", "pos": "代", "english": "it", "mongolian": "тэр" },
+        { "hanzi": "漂亮", "pinyin": "piàoliang", "pos": "形", "english": "beautiful", "mongolian": "сайхан" }
+      ],
+      "texts": [
+        {
+          "title": "课文一：可能做错了不少题",
+          "content": "大卫：山本！山本！山本！\n山本：是大卫啊！\n大卫：你在想什么呢？没听见我在后边叫你吗？\n山本：我刚考完HSK，在想考试的事呢！\n大卫：考得怎么样？\n山本：考得不太好！听力特别难，录音太快了，好多句子我都没听清楚，大概只听懂了三分之一，还不知道做对了没有。\n大卫：你平时的阅读成绩不错，这次考试应该没问题吧？\n山本：阅读也没考好。题太多，虽然都做完了，但是可能做错了不少。\n大卫：什么时候能知道成绩？\n山本：大概一个月以后吧。\n大卫：一个月以后的事，现在别想了。晚上咱们出去好好儿玩儿玩儿！\n山本：好吧，我在宿舍等你。"
+        },
+        {
+          "title": "课文二：你穿上它，一定特别漂亮",
+          "content": "林月：美爱！美爱！\n美爱：林月，是你啊，快请进。\n林月：美爱，你的房间里太闷了，关上空调，拉开窗帘，打开窗户吧。雨早就停了，外面挺凉快的。\n美爱：是吗？中午我回到宿舍就睡觉了，一直睡到现在。\n林月：你怎么这么困啊？\n美爱：前几天准备HSK考试，每天晚上都学习到一两点。\n林月：今天晚上好好儿玩儿玩儿吧。我下午遇到了山本和大卫，他们请咱们俩晚上一起去唱卡拉OK。\n美爱：太好了！几点？在哪儿？\n林月：晚上六点，在学校东门的那家KTV。\n美爱：好久没有出去玩儿了，我要好好打扮打扮。你帮我看看，我穿哪件衣服合适？\n林月：穿这条白裙子吧。你穿上它，一定特别漂亮。"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "结果补语1",
+          "explanation": "The resultative complement is placed after the verbal predicate, indicating the result of an action. Common complements include adjectives (对, 错, 干净, 清楚) and verbs (完, 懂, 见, 开, 会).",
+          "examples": [
+            { "zh": "我刚考完HSK。", "en": "I just finished taking the HSK." },
+            { "zh": "很多句子我都没听清楚。", "en": "I didn't hear many sentences clearly." },
+            { "zh": "今天的考试我做错了不少题。", "en": "I got quite a few questions wrong on today's exam." }
+          ]
+        },
+        {
+          "title": "结果补语2: V+上",
+          "explanation": "The resultative complement '上' indicates an action has a result, sometimes denoting folding/shutting of something or adding one thing to another.",
+          "examples": [
+            { "zh": "关上空调，打开窗户吧。", "en": "Turn off the air conditioner and open the window." },
+            { "zh": "你穿上这件白色的裙子，一定特别漂亮。", "en": "You'll definitely look beautiful if you put on this white skirt." }
+          ]
+        },
+        {
+          "title": "结果补语3: V+到",
+          "explanation": "'V+到+Place' indicates arriving at a place. 'V+到+Time' indicates lasting to a certain time. 'V+到' also indicates achieving the aim or having a result.",
+          "examples": [
+            { "zh": "昨天晚上我学习到一两点。", "en": "I studied until 1 or 2 AM last night." },
+            { "zh": "我下午在路上遇到了山本和大卫。", "en": "I ran into Yamamoto and David on the road this afternoon." }
+          ]
+        }
+      ],
+      "selfCheck": [
+        {
+          "id": "q1",
+          "question": "1. 山本为什么没听见大卫叫他？",
+          "options": ["A. 他耳朵不好", "B. 他在想HSK考试的事", "C. 他在听音乐", "D. 他睡着了"],
+          "answer": "B"
+        },
+        {
+          "id": "q2",
+          "question": "2. 山本觉得他的考试考得怎么样？",
+          "options": ["A. 听力很好，阅读不好", "B. 听力和阅读都不太好", "C. 听力不好，阅读很好", "D. 考得非常好"],
+          "answer": "B"
+        },
+        {
+          "id": "q3",
+          "question": "3. 林月建议美爱穿哪件衣服？",
+          "options": ["A. 红色的毛衣", "B. 白色的裙子", "C. 蓝色的牛仔裤", "D. 黑色的外套"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title_zh": "考完试就要放假了",
+      "title_en": "The vacation will come right after the examination",
+      "vocabulary": [
+        { "hanzi": "学期", "pinyin": "xuéqī", "pos": "名", "english": "term, semester", "mongolian": "семестр" },
+        { "hanzi": "结束", "pinyin": "jiéshù", "pos": "动", "english": "to end, finish", "mongolian": "дуусах" },
+        { "hanzi": "期末", "pinyin": "qīmò", "pos": "名", "english": "end of a semester", "mongolian": "семестрийн төгсгөл" },
+        { "hanzi": "期中", "pinyin": "qīzhōng", "pos": "名", "english": "mid-term", "mongolian": "семестрийн дунд" },
+        { "hanzi": "寒假", "pinyin": "hánjià", "pos": "名", "english": "winter vacation", "mongolian": "өвлийн амралт" },
+        { "hanzi": "回国", "pinyin": "huí guó", "pos": "动", "english": "to return to one's country", "mongolian": "эх орондоо буцах" },
+        { "hanzi": "结婚", "pinyin": "jié hūn", "pos": "动", "english": "to get married", "mongolian": "гэрлэх" },
+        { "hanzi": "邀请", "pinyin": "yāoqǐng", "pos": "动", "english": "to invite", "mongolian": "урих" },
+        { "hanzi": "参加", "pinyin": "cānjiā", "pos": "动", "english": "to participate", "mongolian": "оролцох" },
+        { "hanzi": "婚礼", "pinyin": "hūnlǐ", "pos": "名", "english": "wedding ceremony", "mongolian": "хурим" },
+        { "hanzi": "主意", "pinyin": "zhǔyì", "pos": "名", "english": "idea, plan", "mongolian": "санаа" },
+        { "hanzi": "又……又……", "pinyin": "yòu... yòu...", "pos": "短语", "english": "both... and...", "mongolian": "бас... бас..." },
+        { "hanzi": "旅游", "pinyin": "lǚyóu", "pos": "动", "english": "to travel", "mongolian": "аялах" },
+        { "hanzi": "没准儿", "pinyin": "méizhǔnr", "pos": "副", "english": "perhaps", "mongolian": "магадгүй" },
+        { "hanzi": "师傅", "pinyin": "shīfu", "pos": "名", "english": "address for a skilled man", "mongolian": "багш" },
+        { "hanzi": "赶", "pinyin": "gǎn", "pos": "动", "english": "to try to catch", "mongolian": "гүйцэх" },
+        { "hanzi": "飞机", "pinyin": "fēijī", "pos": "名", "english": "plane", "mongolian": "онгоц" },
+        { "hanzi": "开", "pinyin": "kāi", "pos": "动", "english": "to drive", "mongolian": "жолоодох" },
+        { "hanzi": "要是", "pinyin": "yàoshi", "pos": "连", "english": "if", "mongolian": "хэрэв" },
+        { "hanzi": "堵车", "pinyin": "dǔ chē", "pos": "动", "english": "traffic jam", "mongolian": "түгжрэл" },
+        { "hanzi": "的话", "pinyin": "dehuà", "pos": "助", "english": "used at the end of a conditional clause", "mongolian": "бол" },
+        { "hanzi": "下班", "pinyin": "xià bān", "pos": "动", "english": "to get off work", "mongolian": "ажлаас гарах" },
+        { "hanzi": "上班", "pinyin": "shàng bān", "pos": "动", "english": "to go to work", "mongolian": "ажилдаа явах" },
+        { "hanzi": "环路", "pinyin": "huánlù", "pos": "名", "english": "ring road", "mongolian": "тойрог зам" },
+        { "hanzi": "误", "pinyin": "wù", "pos": "动", "english": "to miss", "mongolian": "алдах" },
+        { "hanzi": "国际", "pinyin": "guójì", "pos": "形", "english": "international", "mongolian": "олон улсын" },
+        { "hanzi": "航班", "pinyin": "hángbān", "pos": "名", "english": "scheduled flight", "mongolian": "нислэг" },
+        { "hanzi": "国内", "pinyin": "guónèi", "pos": "形", "english": "domestic", "mongolian": "дотоодын" },
+        { "hanzi": "提前", "pinyin": "tíqián", "pos": "动", "english": "to shift to an earlier time", "mongolian": "урьдчилах" },
+        { "hanzi": "趟", "pinyin": "tàng", "pos": "量", "english": "measure word for a round trip", "mongolian": "удаа" },
+        { "hanzi": "于是", "pinyin": "yúshì", "pos": "连", "english": "therefore", "mongolian": "тиймээс" },
+        { "hanzi": "餐厅", "pinyin": "cāntīng", "pos": "名", "english": "dining hall", "mongolian": "хоолны газар" },
+        { "hanzi": "越……越……", "pinyin": "yuè... yuè...", "pos": "短语", "english": "the more... the more...", "mongolian": "хэдий чинээ... төдий чинээ..." },
+        { "hanzi": "赶快", "pinyin": "gǎnkuài", "pos": "副", "english": "at once", "mongolian": "яаралтай" },
+        { "hanzi": "拿", "pinyin": "ná", "pos": "动", "english": "to take", "mongolian": "авах" },
+        { "hanzi": "行李", "pinyin": "xíngli", "pos": "名", "english": "luggage", "mongolian": "ачаа" },
+        { "hanzi": "笑", "pinyin": "xiào", "pos": "动", "english": "to smile, laugh", "mongolian": "инээх" },
+        { "hanzi": "开心", "pinyin": "kāixīn", "pos": "形", "english": "happy", "mongolian": "баяртай" },
+        { "hanzi": "哭", "pinyin": "kū", "pos": "动", "english": "to cry", "mongolian": "уйлах" }
+      ],
+      "texts": [
+        {
+          "title": "课文一：考完试就要放假了",
+          "content": "安妮：时间过得真快，这个学期快要结束了！\n美爱：是啊，还有两个多星期就要期末考试了，考完试就要放假了。安妮，寒假你打算怎么过？\n安妮：我父母让我放了假就回国，但是我的一个中国朋友就要结婚了，她邀请我去上海参加她的婚礼。\n美爱：你可以先去参加她的婚礼，然后从上海回国。\n安妮：好主意！听说上海的衣服又好看又便宜，我可以买一些送给我父母。美爱，要不要给你也带点儿什么？\n美爱：谢谢，不用了。我妈妈很快就要来中国了，我要陪她去旅游，我们也打算去上海。\n安妮：是吗？你们什么时候去上海？没准儿咱们能在上海见面呢。"
+        },
+        {
+          "title": "课文二：要是误了飞机就糟糕了",
+          "content": "安妮：师傅，我要赶飞机，麻烦你开得快一点儿。\n师傅：几点的飞机？\n安妮：晚上七点半的飞机。还有两个多小时，来得及吗？\n师傅：要是路上不堵车的话，就来得及。堵车的话，就不好说了。现在是下班时间，特别容易堵车。\n安妮：要是走五环路去机场，是不是快一些？\n师傅：是，但是路有点儿远。\n安妮：我现在赶时间，远点儿没关系。要是误了飞机就糟糕了。\n师傅：你坐的是国际航班还是国内航班？\n安妮：国内航班。我去上海。\n师傅：国内航班提前一个小时到就可以了，快点儿开，应该没问题。\n安妮：谢谢师傅。"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "快要/快/就要……了",
+          "explanation": "These structures indicate that a time is approaching or some situation is about to occur. '就要……了' emphasizes a time is coming even closer and the situation is more urgent.",
+          "examples": [
+            { "zh": "还有两个多星期就要期末考试了。", "en": "There are only two more weeks until the final exam." },
+            { "zh": "考完试就要放假了。", "en": "The vacation will come right after the exam." }
+          ]
+        },
+        {
+          "title": "要是……(的话)，就……",
+          "explanation": "This structure connects two clauses, in which '要是' introduces an assumption and '就' introduces an action to take or a result.",
+          "examples": [
+            { "zh": "要是路上不堵车的话，就来得及。", "en": "If there is no traffic jam on the road, we will make it in time." },
+            { "zh": "要是误了飞机就糟糕了。", "en": "If we miss the plane, it will be terrible." }
+          ]
+        }
+      ],
+      "selfCheck": [
+        {
+          "id": "q1",
+          "question": "1. 安妮寒假打算怎么过？",
+          "options": ["A. 直接回国", "B. 先去上海参加婚礼，然后回国", "C. 去旅游", "D. 留在学校学习"],
+          "answer": "B"
+        },
+        {
+          "id": "q2",
+          "question": "2. 美爱寒假有什么打算？",
+          "options": ["A. 回国", "B. 去上海参加婚礼", "C. 陪妈妈去旅游", "D. 在学校学习"],
+          "answer": "C"
+        },
+        {
+          "id": "q3",
+          "question": "3. 安妮去机场的路上可能遇到什么问题？",
+          "options": ["A. 下大雨", "B. 堵车", "C. 司机开错路", "D. 汽车坏了"],
+          "answer": "B"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title_zh": "坐飞机只比坐火车贵几十块钱",
+      "title_en": "Taking the airplane is only dozens of yuan more expensive than taking the train",
+      "vocabulary": [
+        { "hanzi": "面试", "pinyin": "miànshì", "pos": "名", "english": "interview", "mongolian": "ярилцлага" },
+        { "hanzi": "花", "pinyin": "huā", "pos": "动", "english": "to spend", "mongolian": "зарцуулах" },
+        { "hanzi": "软卧", "pinyin": "ruǎnwò", "pos": "名", "english": "soft sleeper", "mongolian": "зөөлөн ор" },
+        { "hanzi": "硬卧", "pinyin": "yìngwò", "pos": "名", "english": "hard sleeper", "mongolian": "хатуу ор" },
+        { "hanzi": "机票", "pinyin": "jīpiào", "pos": "名", "english": "plane ticket", "mongolian": "онгоцны тасалбар" },
+        { "hanzi": "卧铺", "pinyin": "wòpù", "pos": "名", "english": "sleeping berth", "mongolian": "унтлагын вагон" },
+        { "hanzi": "早晨", "pinyin": "zǎochén", "pos": "名", "english": "early morning", "mongolian": "өглөө" },
+        { "hanzi": "耽误", "pinyin": "dānwu", "pos": "动", "english": "to delay", "mongolian": "хоцроох" },
+        { "hanzi": "白天", "pinyin": "báitiān", "pos": "名", "english": "daytime", "mongolian": "өдөр" },
+        { "hanzi": "票价", "pinyin": "piàojià", "pos": "名", "english": "ticket price", "mongolian": "тасалбарын үнэ" },
+        { "hanzi": "考虑", "pinyin": "kǎolǜ", "pos": "动", "english": "to consider", "mongolian": "бодолцох" },
+        { "hanzi": "订", "pinyin": "dìng", "pos": "动", "english": "to book", "mongolian": "захиалах" },
+        { "hanzi": "处", "pinyin": "chù", "pos": "名", "english": "place, office", "mongolian": "газар" },
+        { "hanzi": "名片", "pinyin": "míngpiàn", "pos": "名", "english": "business card", "mongolian": "нэрийн хуудас" },
+        { "hanzi": "售票员", "pinyin": "shòupiàoyuán", "pos": "名", "english": "ticket seller", "mongolian": "тасалбар борлуулагч" },
+        { "hanzi": "学院", "pinyin": "xuéyuàn", "pos": "名", "english": "college, academy", "mongolian": "дээд сургууль" },
+        { "hanzi": "稍", "pinyin": "shāo", "pos": "副", "english": "a little", "mongolian": "бага зэрэг" },
+        { "hanzi": "当时", "pinyin": "dāngshí", "pos": "名", "english": "at that time", "mongolian": "тэр үед" },
+        { "hanzi": "旺季", "pinyin": "wàngjì", "pos": "名", "english": "busy season", "mongolian": "улирлын оргил үе" },
+        { "hanzi": "要不", "pinyin": "yàobù", "pos": "连", "english": "otherwise", "mongolian": "эс бөгөөс" },
+        { "hanzi": "起飞", "pinyin": "qǐfēi", "pos": "动", "english": "to take off", "mongolian": "нисэх" },
+        { "hanzi": "就", "pinyin": "jiù", "pos": "副", "english": "exactly", "mongolian": "яг" },
+        { "hanzi": "姓名", "pinyin": "xìngmíng", "pos": "名", "english": "full name", "mongolian": "овог нэр" },
+        { "hanzi": "护照", "pinyin": "hùzhào", "pos": "名", "english": "passport", "mongolian": "гадаад паспорт" },
+        { "hanzi": "地址", "pinyin": "dìzhǐ", "pos": "名", "english": "address", "mongolian": "хаяг" },
+        { "hanzi": "联系", "pinyin": "liánxì", "pos": "动", "english": "to contact", "mongolian": "холбогдох" },
+        { "hanzi": "先生", "pinyin": "xiānsheng", "pos": "名", "english": "Mister", "mongolian": "ноён" },
+        { "hanzi": "送", "pinyin": "sòng", "pos": "动", "english": "to deliver", "mongolian": "хүргэх" }
+      ],
+      "texts": [
+        {
+          "title": "课文一：坐飞机只比坐火车贵几十块钱",
+          "content": "山本：马丁，听说你要去上海的一家公司参加面试，什么时候去？\n马丁：我打算坐30号的火车去。\n山本：怎么不坐飞机？飞机比火车快十多个小时呢。\n马丁：坐飞机太贵了，要花一千多块钱，比坐软卧贵六百多呢。\n山本：现在买机票一般都可以打折。上个月我去上海，机票打六折，只比卧铺贵一两百块钱。\n马丁：坐火车的话，晚上出发早晨到，不耽误白天的时间。\n山本：飞机也有晚上的航班，票价更低，有时候比软卧还便宜几十块钱呢。\n马丁：真的吗？要是这样的话，我也可以考虑坐飞机去。\n山本：学校南门有一个机票订票处，我有他们的名片，你可以打电话问问。\n马丁：好，下午我问问。"
+        },
+        {
+          "title": "课文二：晚上的航班比白天的便宜多了",
+          "content": "售票员：您好！学院路订票处。\n马丁：你好，我想订一张31号下午去上海的机票，请问多少钱？\n售票员：请稍等，我查一下。31号下午的机票打8折，900块钱。\n马丁：怎么是8折？上个月我朋友在您那儿订了一张机票，也是去上海，当时是6折啊！\n售票员：现在是旅游旺季，机票比平时贵一点儿。\n马丁：这不是贵一点儿，是贵得多。\n售票员：白天的航班最多打8折，要不您坐晚上的航班，可以打6折，比白天的便宜得多。\n马丁：晚上的航班几点起飞？\n售票员：晚上九点起飞，十一点左右到上海。\n马丁：好吧，我就订这个航班。\n售票员：请告诉我您的姓名、护照号码、地址和联系电话……好，马丁先生，我们明天给您送票。\n马丁：谢谢！"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "用“比”的比较句1：A比B+形+具体差别",
+          "explanation": "In a comparative sentence with '比', the adjective can be followed by a complement indicating a specific degree or number to denote the specific difference.",
+          "examples": [
+            { "zh": "坐飞机比坐软卧贵六百多呢。", "en": "Taking the airplane is over 600 yuan more expensive than taking the soft sleeper." },
+            { "zh": "飞机比火车快十多个小时呢。", "en": "The airplane is over ten hours faster than the train." }
+          ]
+        },
+        {
+          "title": "表示强调的“呢”",
+          "explanation": "'呢' is often used in spoken Chinese, placed at the end of a declarative sentence to confirm or emphasize a fact and convince the other party, mostly in an exaggerated tone.",
+          "examples": [
+            { "zh": "坐飞机比坐软卧贵六百多呢！", "en": "Taking the airplane is over 600 yuan more expensive than taking the soft sleeper!" },
+            { "zh": "飞机比火车快十多个小时呢。", "en": "The airplane is over ten hours faster than the train." }
+          ]
+        },
+        {
+          "title": "用“比”的比较句2：A比B+形+一点儿/得多",
+          "explanation": "The adjective can be followed by '一点儿' or '一些' to indicate a little difference, or '得多' or '多了' to indicate much difference.",
+          "examples": [
+            { "zh": "旅游旺季的机票比平时贵一点儿。", "en": "Flight tickets during peak season are a little more expensive than usual." },
+            { "zh": "晚上的航班比白天的航班便宜得多。", "en": "Evening flights are much cheaper than daytime flights." }
+          ]
+        },
+        {
+          "title": "表示强调的“就”",
+          "explanation": "'就' can be used to affirm or emphasize the objective fact.",
+          "examples": [
+            { "zh": "我就订这个航班的机票。", "en": "I will book the ticket for this flight." },
+            { "zh": "前面那个楼就是我家。", "en": "That building in front is my home." }
+          ]
+        }
+      ],
+      "selfCheck": [
+        {
+          "id": "q1",
+          "question": "1. 马丁一开始为什么不想坐飞机去上海？",
+          "options": ["A. 他害怕坐飞机", "B. 他觉得坐飞机太贵了", "C. 他喜欢坐火车", "D. 飞机票卖完了"],
+          "answer": "B"
+        },
+        {
+          "id": "q2",
+          "question": "2. 山本为什么建议马丁坐飞机去？",
+          "options": ["A. 飞机比火车快很多", "B. 现在机票可以打折，可能比软卧还便宜", "C. 马丁赶时间", "D. 山本有名片"],
+          "answer": "B"
+        },
+        {
+          "id": "q3",
+          "question": "3. 马丁最后订了哪个航班？",
+          "options": ["A. 白天8折的航班", "B. 晚上6折的航班", "C. 白天的全价航班", "D. 晚上的8折航班"],
+          "answer": "B"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+/* style.css — HSK Үгсийн сан : paper & ink design system (iOS Friendly) */
+
+/* ----- iOS Base Fixes ----- */
+*, *::before, *::after {
+    box-sizing: border-box;
+    /* Disables tap highlight outline on iOS Safari */
+    -webkit-tap-highlight-color: transparent; 
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    /* Prevents horizontal overflow scroll on iOS rubber-banding */
+    overflow-x: hidden;
+}
+
+body {
+    background: #F6F5F1;
+    background-image: radial-gradient(circle at 1px 1px, rgba(22, 27, 38, 0.05) 1px, transparent 0);
+    background-size: 22px 22px;
+    color: #1F2536;
+    /* Use dvh for dynamic iOS Safari viewport, fallback to 100vh */
+    min-height: 100vh;
+    min-height: 100dvh;
+    transition: background 0.2s ease, color 0.2s ease;
+    margin: 0;
+    padding: 0;
+    touch-action: manipulation;
+    overflow-x: hidden;
+}
+
+body.dark {
+    background: #0F131C;
+    background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.035) 1px, transparent 0);
+    background-size: 22px 22px;
+    color: #E9EBF0;
+}
+
+/* ----- Safe-area helpers (iOS notch / dynamic island / home-indicator) ----- */
+.safe-x {
+    padding-left: max(env(safe-area-inset-left), 1rem);
+    padding-right: max(env(safe-area-inset-right), 1rem);
+}
+
+.main-content {
+    /* Accommodates home indicator bar on modern iPhones */
+    padding-bottom: calc(env(safe-area-inset-bottom) + 3rem) !important;
+    width: 100%;
+}
+
+.app-header {
+    background: rgba(246, 245, 241, 0.88);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(31, 37, 54, 0.08);
+    padding-top: max(env(safe-area-inset-top), 0.5rem);
+    padding-bottom: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    transition: all 0.25s ease-in-out;
+    will-change: transform, backdrop-filter; /* Prevents iOS rendering glitches */
+}
+
+body.dark .app-header {
+    background: rgba(15, 19, 28, 0.85);
+    border-bottom: 1px solid rgba(233, 235, 240, 0.08);
+}
+
+/* ----- Tap targets / iOS form fixes ----- */
+button, a, select, input[type="submit"] {
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Crucial iOS fix: 16px minimum font prevents Safari from auto-zooming on focus */
+input, select, textarea {
+    font-size: 16px !important;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0.5rem;
+}
+
+.field-input {
+    padding: 0.5rem 0.85rem;
+    background: #ffffff;
+    border: 1px solid rgba(31, 37, 54, 0.15);
+    color: #1F2536;
+    outline: none;
+}
+body.dark .field-input {
+    background: #1B2130;
+    border-color: rgba(233, 235, 240, 0.15);
+    color: #E9EBF0;
+}
+
+/* ----- Buttons ----- */
+.icon-btn {
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75rem;
+    color: #5B6478;
+    transition: background 0.15s ease, color 0.15s ease;
+    font-size: 1.25rem;
+    line-height: 1;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+.icon-btn:active {
+    background: rgba(31, 37, 54, 0.1);
+}
+body.dark .icon-btn { color: #AEB4C4; }
+body.dark .icon-btn:active {
+    background: rgba(233, 235, 240, 0.12);
+}
+
+/* ----- Tabs (pill toggle) ----- */
+.tab-group {
+    display: flex;
+    background: rgba(31, 37, 54, 0.06);
+    border-radius: 0.85rem;
+    padding: 0.35rem;
+    gap: 0.25rem;
+    margin-bottom: 1.5rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Momentum scrolling on iOS */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.tab-group::-webkit-scrollbar { display: none; }
+body.dark .tab-group { background: rgba(233, 235, 240, 0.06); }
+
+.tab-btn {
+    flex: 1 0 auto;
+    padding: 0.65rem 1rem;
+    border-radius: 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #5B6478;
+    background: transparent;
+    border: none;
+    transition: all 0.2s ease;
+    min-height: 44px; /* Native 44px tap area requirement */
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.tab-btn.is-active {
+    background: #fff;
+    color: #B3261E;
+    box-shadow: 0 4px 10px -4px rgba(15, 19, 28, 0.15);
+}
+body.dark .tab-btn.is-active {
+    background: #2E3547;
+    color: #E07A6E;
+}
+
+/* ----- Word cards ----- */
+.word-card {
+    background: #ffffff;
+    border: 1px solid rgba(31, 37, 54, 0.08);
+    border-left: 3px solid #B3261E;
+    border-radius: 1rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    overflow: hidden;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+body.dark .word-card {
+    background: #1B2130;
+    border-color: rgba(233, 235, 240, 0.08);
+    border-left-color: #E07A6E;
+}
+
+.hanzi-text {
+    font-family: 'Noto Serif SC', serif;
+}
+
+.badge-pos {
+    background: #FDECEA;
+    color: #8F1E17;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 0.2rem 0.7rem;
+    border-radius: 9999px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+body.dark .badge-pos { background: #3A1815; color: #E07A6E; }
+
+/* Save Icon */
+.save-icon {
+    cursor: pointer;
+    font-size: 1.4rem;
+    opacity: 0.3;
+    transition: all 0.2s ease;
+    -webkit-user-select: none;
+    user-select: none;
+    line-height: 1;
+    padding: 0.4rem;
+}
+.save-icon.saved {
+    opacity: 1;
+    color: #f59e0b;
+}
+
+.word-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.25rem;
+}
+@media (max-width: 640px) {
+    .word-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 0.75rem;
+    }
+    .word-card { padding: 1rem !important; }
+    .word-card .text-3xl { font-size: 1.6rem !important; }
+    .word-card .text-lg { font-size: 0.95rem !important; }
+    .word-card .text-sm { font-size: 0.8rem !important; }
+    .badge-pos { font-size: 0.5rem !important; padding: 0.15rem 0.5rem !important; }
+}
+
+/* ----- Self-Check Section ----- */
+.self-check-section {
+    min-height: calc(100vh - 60px);
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem 3rem;
+}
+
+.self-check-card {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(31, 37, 54, 0.08);
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
+}
+
+.self-check-card h2, 
+.self-check-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #1f2536;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.self-check-subtitle {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-bottom: 1.75rem;
+    line-height: 1.4;
+}
+
+.self-check-option {
+    display: flex;
+    align-items: center;
+    padding: 0.85rem 1rem;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid rgba(31, 37, 54, 0.1);
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin-bottom: 0.5rem;
+    color: #1F2536;
+    min-height: 44px;
+}
+
+.self-check-option input[type="radio"] {
+    accent-color: #3b82f6;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.75rem;
+}
+
+.self-check-submit-btn {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.85rem 1.25rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: 12px;
+    border: none;
+    background: #1f2536;
+    color: #ffffff;
+    min-height: 48px;
+    cursor: pointer;
+}
+
+/* Dark mode overrides for self check */
+body.dark .self-check-card { background: #1B2130; border-color: rgba(233, 235, 240, 0.08); }
+body.dark .self-check-card h2 { color: #E9EBF0; }
+body.dark .self-check-option { background: #161B26; border-color: rgba(233, 235, 240, 0.16); color: #E9EBF0; }
+body.dark .self-check-submit-btn { background: #3a425a; }
+
+/* ----- Custom Text Layout & Pinyin ----- */
+.text-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #2E3547;
+    margin-bottom: 2rem;
+    background: #fff;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(31, 37, 54, 0.08);
+    font-family: 'Noto Serif SC', serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+body.dark .text-content {
+    background: #1B2130;
+    border-color: rgba(233, 235, 240, 0.08);
+    color: #D3D7E0;
+}
+.text-content p {
+    margin-bottom: 1.5rem;
+    line-height: 2.3; /* Added spacing to avoid iOS dynamic Ruby overlapping */
+}
+
+.pinyin-toggle-btn {
+    background: #fff;
+    color: #1F2536;
+    border: 1px solid rgba(31, 37, 54, 0.15);
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 44px;
+}
+
+body.dark .pinyin-toggle-btn {
+    background: #1B2130;
+    border-color: rgba(233, 235, 240, 0.15);
+    color: #E9EBF0;
+}
+
+/* Ruby tags for Pinyin - Optimized for native iOS WebKit rendering */
+.text-content ruby {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 1.15rem;
+    margin: 0 2px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.text-content rt {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #C2410C;
+    letter-spacing: 0.02em;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body.dark .text-content rt {
+    color: #F59E0B;
+}
+
+/* ----- Grammar Layout ----- */
+.grammar-card {
+    background: #fff;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(31, 37, 54, 0.08);
+    margin-bottom: 1.5rem;
+}
+body.dark .grammar-card {
+    background: #1B2130;
+    border-color: rgba(233, 235, 240, 0.08);
+}
+.grammar-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #B3261E;
+    margin-bottom: 0.5rem;
+}
+body.dark .grammar-title { color: #E07A6E; }
+
+.example-item {
+    background: #F9FAFB;
+    border-left: 3px solid #3b82f6;
+    padding: 0.75rem 1rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    margin-bottom: 0.75rem;
+}
+body.dark .example-item {
+    background: #161B26;
+    border-left-color: #60A5FA;
+}
+
+/* ----- Toast ----- */
+.toast {
+    position: fixed;
+    /* Adjust dynamically for iPhone Home Bar offset */
+    bottom: calc(1.5rem + env(safe-area-inset-bottom));
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1F2536;
+    color: #F5F6F8;
+    padding: 0.75rem 1.5rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.22);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 999;
+    white-space: nowrap;
+    max-width: calc(100vw - 2rem);
+}
+.toast.show { opacity: 1; pointer-events: auto; }
+
+/* ----- Utilities ----- */
+.max-w-4xl { max-width: 56rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-6 { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.gap-2 { gap: 0.5rem; }
+.gap-3 { gap: 0.75rem; }
+.text-lg { font-size: 1.125rem; }
+.text-xs { font-size: 0.75rem; }
+.font-bold { font-weight: 700; }
+.font-medium { font-weight: 500; }
+.tracking-tight { letter-spacing: -0.025em; }
+.mb-6 { margin-bottom: 1.5rem; }
+.hidden { display: none; }
+
+@media (min-width: 640px) {
+    .sm\:inline { display: inline; }
+}
+
+/* ==========================================================================
+   NEW FEATURE: Dialogue Formatting & Speaker Names
+   ========================================================================== */
+
+/* Wrapper for dialogue lines to ensure proper spacing */
+.dialogue-line {
+    margin-bottom: 0.75rem;
+    line-height: 2.3;
+}
+
+/* Wrapper for narrative/stage direction lines */
+.narrative-line {
+    margin-bottom: 1.25rem;
+    line-height: 2.3;
+    color: #6B7280; /* Muted gray for stage directions */
+    font-style: italic;
+}
+
+body.dark .narrative-line {
+    color: #9CA3AF;
+}
+
+/* Speaker Name Styling */
+.speaker-name {
+    font-weight: 800; /* Extra bold */
+    color: #B3261E; /* Red accent matching the theme */
+    margin-right: 0.25rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body.dark .speaker-name {
+    color: #E07A6E; /* Lighter red for dark mode */
+}

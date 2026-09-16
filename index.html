@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport configured for iOS notch/island safe areas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    
+    <!-- iOS Web App Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="顺利篇 Book 1">
+    
+    <title>顺利篇 Book One - Interactive Learning</title>
+    
+    <!-- Google Fonts for the design system -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header with dynamic Top Safe Area -->
+    <header class="app-header safe-x">
+        <div class="max-w-4xl mx-auto px-4 flex items-center justify-between header-inner">
+            <div class="flex items-center gap-3">
+                <div class="seal-mark-sm">成</div>
+                <div>
+                    <h1 class="text-lg font-bold tracking-tight">顺利篇</h1>
+                    <p class="text-xs text-gray-500 dark:text-gray-400">Road to Success · Book One</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-2">
+                <button id="user-btn" class="icon-btn" title="User Profile" aria-label="User Profile">👤 <span id="user-name-display" class="text-xs ml-1 font-medium hidden sm:inline"></span></button>
+                <button id="theme-toggle" class="icon-btn" title="Toggle Dark Mode" aria-label="Toggle Dark Mode">🌙</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 py-6 safe-x main-content">
+        
+        <!-- Lesson Selector -->
+        <div class="mb-6 flex justify-between items-center">
+            <select id="lesson-selector" class="field-input field-input-sm max-w-xs" style="width: auto;">
+                <!-- Populated by JS -->
+            </select>
+            <span id="lesson-progress" class="text-sm font-medium text-gray-500"></span>
+        </div>
+
+        <!-- Navigation Tabs -->
+        <div class="tab-group">
+            <button class="tab-btn is-active" data-tab="vocab">📚Шинэ үгс</button>
+            <button class="tab-btn" data-tab="text">📖 Текст</button>
+            <button class="tab-btn" data-tab="grammar">📝 Дүрэм</button>
+            <button class="tab-btn" data-tab="self-check">✅ Өөрийгөө шалгах</button>
+            <button class="tab-btn" data-tab="saved">🔖 Хадгалсан</button>
+        </div>
+
+        <!-- Content Area -->
+        <div id="content-area">
+            <!-- Dynamic content will be injected here -->
+        </div>
+
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">Action completed!</div>
+
+    <!-- Pinyin Library -->
+    <script src="https://unpkg.com/pinyin-pro@3.18.3/dist/index.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
