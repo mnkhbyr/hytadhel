@@ -109,7 +109,7 @@ window.togglePinyin = function() {
 };
 
 function convertToPinyinHTML(text) {
-    if (!window.pinyinPro) return text;
+    if (!window.pinyinPro) return text; // Fallback if library fails to load
     
     return text.split('\n').map(line => {
         if (!line.trim()) return '<br>';
@@ -125,18 +125,21 @@ function convertToPinyinHTML(text) {
             dialogueText = speakerMatch[2];
         }
         
-        // Generate Pinyin for the dialogue part
-        const pinyinArr = window.pinyinPro.pinyin(dialogueText, { toneType: 'symbol', type: 'array' });
-        const chars = dialogueText.split('');
+        // FIXED: Use type: 'all' to get exact character-by-character mapping including punctuation
+        const pinyinResult = window.pinyinPro.pinyin(dialogueText, { toneType: 'symbol', type: 'all' });
         let rubyHtml = '';
         
-        for (let i = 0; i < chars.length; i++) {
-            if (/[\u4e00-\u9fa5]/.test(chars[i])) {
-                const py = pinyinArr[i] || '';
-                rubyHtml += `<ruby>${chars[i]}<rt>${py}</rt></ruby>`;
-            } else {
-                rubyHtml += chars[i];
-            }
+        if (Array.isArray(pinyinResult)) {
+            pinyinResult.forEach(item => {
+                if (item.isZh) {
+                    rubyHtml += `<ruby>${item.origin}<rt>${item.pinyin}</rt></ruby>`;
+                } else {
+                    // Keep punctuation and spaces intact (Fixes the iOS misalignment bug)
+                    rubyHtml += item.origin;
+                }
+            });
+        } else {
+            rubyHtml = dialogueText; // Fallback
         }
         
         // If it was a narrative line (no speaker), use a different class
@@ -252,14 +255,12 @@ function renderTexts(texts) {
             body.innerHTML = text.content.split('\n').map(line => {
                 if (!line.trim()) return '<br>';
                 
-                // Format speaker names
                 for (let speaker of knownSpeakers) {
                     if (line.startsWith(`${speaker}：`) || line.startsWith(`${speaker}:`)) {
                         const rest = line.substring(speaker.length + 1);
                         return `<div class="dialogue-line"><span class="speaker-name">${speaker}：</span>${rest}</div>`;
                     }
                 }
-                // Narrative lines
                 return `<div class="narrative-line">${line}</div>`;
             }).join('');
         }
