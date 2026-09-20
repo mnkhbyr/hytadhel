@@ -3,7 +3,6 @@
 /* ----- iOS Base Fixes ----- */
 *, *::before, *::after {
     box-sizing: border-box;
-    /* Disables tap highlight outline on iOS Safari */
     -webkit-tap-highlight-color: transparent; 
 }
 
@@ -12,7 +11,6 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
-    /* Prevents horizontal overflow scroll on iOS rubber-banding */
     overflow-x: hidden;
 }
 
@@ -21,7 +19,6 @@ body {
     background-image: radial-gradient(circle at 1px 1px, rgba(22, 27, 38, 0.05) 1px, transparent 0);
     background-size: 22px 22px;
     color: #1F2536;
-    /* Use dvh for dynamic iOS Safari viewport, fallback to 100vh */
     min-height: 100vh;
     min-height: 100dvh;
     transition: background 0.2s ease, color 0.2s ease;
@@ -45,7 +42,6 @@ body.dark {
 }
 
 .main-content {
-    /* Accommodates home indicator bar on modern iPhones */
     padding-bottom: calc(env(safe-area-inset-bottom) + 3rem) !important;
     width: 100%;
 }
@@ -61,7 +57,7 @@ body.dark {
     top: 0;
     z-index: 50;
     transition: all 0.25s ease-in-out;
-    will-change: transform, backdrop-filter; /* Prevents iOS rendering glitches */
+    will-change: transform, backdrop-filter;
 }
 
 body.dark .app-header {
@@ -76,7 +72,6 @@ button, a, select, input[type="submit"] {
     user-select: none;
 }
 
-/* Crucial iOS fix: 16px minimum font prevents Safari from auto-zooming on focus */
 input, select, textarea {
     font-size: 16px !important;
     -webkit-appearance: none;
@@ -130,7 +125,7 @@ body.dark .icon-btn:active {
     gap: 0.25rem;
     margin-bottom: 1.5rem;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch; /* Momentum scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
@@ -147,7 +142,7 @@ body.dark .tab-group { background: rgba(233, 235, 240, 0.06); }
     background: transparent;
     border: none;
     transition: all 0.2s ease;
-    min-height: 44px; /* Native 44px tap area requirement */
+    min-height: 44px;
     cursor: pointer;
     white-space: nowrap;
     -webkit-user-select: none;
@@ -202,7 +197,6 @@ body.dark .word-card {
 }
 body.dark .badge-pos { background: #3A1815; color: #E07A6E; }
 
-/* Save Icon */
 .save-icon {
     cursor: pointer;
     font-size: 1.4rem;
@@ -307,7 +301,6 @@ body.dark .badge-pos { background: #3A1815; color: #E07A6E; }
     cursor: pointer;
 }
 
-/* Dark mode overrides for self check */
 body.dark .self-check-card { background: #1B2130; border-color: rgba(233, 235, 240, 0.08); }
 body.dark .self-check-card h2 { color: #E9EBF0; }
 body.dark .self-check-option { background: #161B26; border-color: rgba(233, 235, 240, 0.16); color: #E9EBF0; }
@@ -334,7 +327,7 @@ body.dark .text-content {
 }
 .text-content p {
     margin-bottom: 1.5rem;
-    line-height: 2.3; /* Added spacing to avoid iOS dynamic Ruby overlapping */
+    line-height: 2.3;
 }
 
 .pinyin-toggle-btn {
@@ -358,12 +351,12 @@ body.dark .pinyin-toggle-btn {
     color: #E9EBF0;
 }
 
-/* Ruby tags for Pinyin - Optimized for native iOS WebKit rendering */
+/* Ruby tags for Pinyin - FIXED FOR iOS SAFARI */
 .text-content ruby {
     font-family: 'Noto Serif SC', serif;
     font-size: 1.15rem;
     margin: 0 2px;
-    display: inline-block;
+    /* REMOVED: display: inline-block; (This breaks iOS Ruby wrapping) */
     text-align: center;
     vertical-align: bottom;
 }
@@ -374,12 +367,42 @@ body.dark .pinyin-toggle-btn {
     font-weight: 500;
     color: #C2410C;
     letter-spacing: 0.02em;
+    /* ADDED: Tight line height to prevent vertical squashing on Safari */
+    line-height: 1.1; 
     -webkit-user-select: none;
     user-select: none;
 }
 
 body.dark .text-content rt {
     color: #F59E0B;
+}
+
+/* ----- Dialogue and Narrative Text Styles ----- */
+.dialogue-line {
+    margin-bottom: 0.75rem;
+    line-height: 2.3;
+}
+
+.narrative-line {
+    margin-bottom: 1.25rem;
+    line-height: 2.3;
+    color: #6B7280;
+    font-style: italic;
+}
+
+body.dark .narrative-line {
+    color: #9CA3AF;
+}
+
+.speaker-name {
+    font-weight: 800;
+    color: #B3261E;
+    margin-right: 0.25rem;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body.dark .speaker-name {
+    color: #E07A6E;
 }
 
 /* ----- Grammar Layout ----- */
@@ -417,7 +440,6 @@ body.dark .example-item {
 /* ----- Toast ----- */
 .toast {
     position: fixed;
-    /* Adjust dynamically for iPhone Home Bar offset */
     bottom: calc(1.5rem + env(safe-area-inset-bottom));
     left: 50%;
     transform: translateX(-50%);
@@ -457,38 +479,4 @@ body.dark .example-item {
 
 @media (min-width: 640px) {
     .sm\:inline { display: inline; }
-}
-
-/* ==========================================================================
-   NEW FEATURE: Dialogue Formatting & Speaker Names
-   ========================================================================== */
-
-/* Wrapper for dialogue lines to ensure proper spacing */
-.dialogue-line {
-    margin-bottom: 0.75rem;
-    line-height: 2.3;
-}
-
-/* Wrapper for narrative/stage direction lines */
-.narrative-line {
-    margin-bottom: 1.25rem;
-    line-height: 2.3;
-    color: #6B7280; /* Muted gray for stage directions */
-    font-style: italic;
-}
-
-body.dark .narrative-line {
-    color: #9CA3AF;
-}
-
-/* Speaker Name Styling */
-.speaker-name {
-    font-weight: 800; /* Extra bold */
-    color: #B3261E; /* Red accent matching the theme */
-    margin-right: 0.25rem;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-body.dark .speaker-name {
-    color: #E07A6E; /* Lighter red for dark mode */
 }
